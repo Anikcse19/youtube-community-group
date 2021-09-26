@@ -5,10 +5,16 @@ import { ButtonGroup, Card } from 'react-bootstrap';
 import "./MainBody.css"
 
 const MainBody = (props) => {
+
+    // destructuring-----------
     const { img, channelName, contentNumber, nationality, subscriber, hounarium } = props.youtuber
+
+    // font awesome icon ---
     const element = <FontAwesomeIcon className='mt-1 me-1' icon={faAllergies} />
     return (
         <div className=" col-md-4 col g-3 w-100% mx-auto">
+
+            {/* single youtuber Card  */}
             <Card className='card' style={{
                 width: '18rem',
             }}>
@@ -40,7 +46,7 @@ const MainBody = (props) => {
                         fontWeight: 'bolder'
                     }}>hounarium: {hounarium}</ h6>
 
-                    <ButtonGroup className='btn w-100 mx-auto btn-outline-primary' onClick={() => { props.handleHire(props.youtuber) }} variant="primary"><small className='ms-5 fs-4'>{element} Hire</small> </ButtonGroup><br />
+                    <ButtonGroup className='btn w-100 mx-auto btn-outline-primary' onClick={() => { props.handleHire(props.youtuber) }} variant="primary"><small className='ms-5 fs-4'>{element} Hire Now</small> </ButtonGroup><br />
                     <div className='text-center fw-bolder fs-2 text-danger'><i class="fab fa-youtube"></i></div>
                 </Card.Body>
             </Card>

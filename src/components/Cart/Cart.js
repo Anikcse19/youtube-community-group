@@ -34,6 +34,8 @@ const Cart = (props) => {
                     textAlign: 'center'
                 }}>My Hired Authority</h5>
 
+
+                {/* showed the clicked youtubers dynamically */}
                 {
 
                     props.singleMember.map(member => {
@@ -51,6 +53,7 @@ const Cart = (props) => {
 
                 }
             </div>
+            <button className="btn btn-success">Invite Now</button>
 
         </div>
     );
