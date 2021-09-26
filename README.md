@@ -1,6 +1,6 @@
 # Grow Up The YouTube Community
 
-This is my live project  [https://youtube-community-grow-up-658.netlify.app/](https://github.com/facebook/create-react-app).
+This is my live project  https://youtube-community-grow-up-658.netlify.app/
 
 # Purposes of this project:
 
