@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+.img{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.bg{
+padding-left: 5px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+    box-shadow: 12px 12px 5px 10px rgba(0, 0, 255, .2);
+}
